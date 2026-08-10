@@ -1,0 +1,4 @@
+index,name,formula,uses_prev_sample,velocity_slope_window_samples,velocity_position_prefilter_tau_s
+1,s_tilde,s_meas_mm - s_ref_mm,False,,
+2,p_tilde,p_meas_bar - p_ff_bar,False,,
+3,e_I,e_I_prev + (s_meas_mm - s_ref_mm) * Ts_s,True,,

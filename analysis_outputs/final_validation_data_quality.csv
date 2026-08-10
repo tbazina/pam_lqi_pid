@@ -1,0 +1,5 @@
+controller,source_file,raw_rows,startup_rows_dropped,terminal_rows_dropped,expected_holds,complete_holds,missing_holds,missing_hold_ids,completed_duration_min,full_reference_run_completed,reference_match_fraction,schedule_coverage_fraction,pressure_negative_samples,command_lower_limit_samples,command_upper_limit_samples,u_min_v,u_max_v,branch_deadband_mm,native_slope_window_samples,native_position_prefilter_tau_s,native_velocity_filter_tau_s,uses_creep_compensation,uses_dynamic_pressure_reference
+Feedforward_only,feedforward_only_validation_experiment.csv,89802,1,1,450,449,1,446,14.966666666666667,FALSE,1,0.9977777777777778,15,1,0,0.9479660643688704,7.2,0.14,NA,0,0,TRUE,FALSE
+PID,PID_validation_experiment.csv,90002,1,1,450,450,0,,15,TRUE,1,1,16,2911,2546,0.9479660643688704,7.2,0.575,19,0.004,0.85,TRUE,FALSE
+LQI_no_vel,LQI_no_vel_validation_experiment.csv,90002,1,1,450,450,0,,15,TRUE,1,1,16,2701,2557,0.9479660643688704,7.2,0.14,NA,0,0,TRUE,TRUE
+LQI_vel,LQI_vel_validation_experiment.csv,90002,1,1,450,450,0,,15,TRUE,1,1,16,2715,2551,0.9479660643688704,7.2,0.14,29,0.08,0.33,TRUE,TRUE

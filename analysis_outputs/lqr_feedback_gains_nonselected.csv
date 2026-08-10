@@ -1,0 +1,9 @@
+variant,matrix,row,col,value
+lookup_plus_branchwise_minimal_LQI_VEL,K_aug_up,1,1,0.7163283907018522
+lookup_plus_branchwise_minimal_LQI_VEL,K_aug_up,1,2,-0.48309182378567944
+lookup_plus_branchwise_minimal_LQI_VEL,K_aug_up,1,3,-0.005577155714330288
+lookup_plus_branchwise_minimal_LQI_VEL,K_aug_up,1,4,0.0101239602426627
+lookup_plus_branchwise_minimal_LQI_VEL,K_aug_down,1,1,0.7240210127744238
+lookup_plus_branchwise_minimal_LQI_VEL,K_aug_down,1,2,-0.5612108850489048
+lookup_plus_branchwise_minimal_LQI_VEL,K_aug_down,1,3,0.0018483292905244104
+lookup_plus_branchwise_minimal_LQI_VEL,K_aug_down,1,4,0.010264105676057643

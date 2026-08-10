@@ -1,0 +1,7 @@
+branch,term,value
+up,kp_v_per_mm,0.4675
+up,ki_v_per_mm_s,0.001275
+up,kd_v_s_per_mm,0.0391
+down,kp_v_per_mm,0.55
+down,ki_v_per_mm_s,0.001725
+down,kd_v_s_per_mm,0.028900000000000002

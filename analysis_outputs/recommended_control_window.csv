@@ -1,0 +1,5 @@
+level,run_id,file,step_v,settle_ms,window_low_v,window_high_v,window_width_v,window_exists,runs_used,any_direction_unstable,any_stroke_endpoint_flag
+run,step_0.01V_settle_200ms,static_threshold_hysteresis_step_0p01v_settle_time_200ms_p_voltage_bar.csv,0.01,200,NA,NA,NA,FALSE,1,FALSE,TRUE
+run,step_0.05V_settle_400ms,static_threshold_hysteresis_step_0p05v_settle_time_400ms_p_voltage_bar.csv,0.05,400,0.5550205696271102,8.363223659138972,7.808203089511862,TRUE,1,FALSE,TRUE
+run,step_0.10V_settle_600ms,static_threshold_hysteresis_step_0p10v_settle_time_600ms_p_voltage_bar.csv,0.1,600,0.5576893488546546,9.49999999216057,8.942310643305914,TRUE,1,FALSE,TRUE
+global,global_conservative,NA,NA,NA,0.5576893488546546,8.363223659138972,7.805534310284318,TRUE,2,FALSE,TRUE

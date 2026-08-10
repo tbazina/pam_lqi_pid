@@ -1,0 +1,4 @@
+run_id,file,step_v,settle_ms,n_rows,cycles,directions,u_min,u_max,p_min,p_max,s_min,s_max,p_mean,s_mean
+step_0.01V_settle_200ms,static_threshold_hysteresis_step_0p01v_settle_time_200ms_p_voltage_bar.csv,0.01,200,8011,4,2,0,10.01,0,5.6573,-0.049,38.672,2.6870003869679193,18.11050230932468
+step_0.05V_settle_400ms,static_threshold_hysteresis_step_0p05v_settle_time_400ms_p_voltage_bar.csv,0.05,400,1600,4,2,0,10,0,5.130800000000001,-0.049,35.791,2.6263753125,17.523508125
+step_0.10V_settle_600ms,static_threshold_hysteresis_step_0p10v_settle_time_600ms_p_voltage_bar.csv,0.1,600,808,4,2,0,10.1,0,5.6618,-0.049,39.063,2.716703712871287,18.629450495049504
