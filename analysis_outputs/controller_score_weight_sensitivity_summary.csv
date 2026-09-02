@@ -1,0 +1,6 @@
+controller,analysis_scope,analysis_status,profile_count,baseline_config_id,baseline_selection_same_count,selection_change_count,unique_selected_config_count,max_abs_gain_s_ratio_min,max_abs_gain_s_ratio_max,gain_l1_ratio_min,gain_l1_ratio_max,lqi_base_selection_count,lqi_velocity_selection_count,note
+Base LQI,lqi_base_pool,scored_feedback_pool,24,base_qs7.25_qp5_qi0.0011_r10_bd0.14_pd0.05,20.0,4.0,4.0,0.952340589791199,1.019327098767993,0.9633756750013833,1.0102052231674936,,,
+Velocity-state LQI,lqi_velocity_pool,scored_feedback_pool,24,vel_qs7.5_qp5_qv0.025_qi0.0011_r10_bd0.14_pd0.05_tau0.33_n29_sp0.08,23.0,1.0,2.0,0.9806551521028275,1.0,0.9844531599342229,1.0,,,
+PID,pid_pool,scored_feedback_pool,24,pid_refine_seedpid_smooth_seedpid_seed_kp0.55_ki0.0015_kd0.034_tau0.65_n15_sp0.004_bd0.575_pd0.06_tau0.85_n19_sp0.004_ku0.85_iu0.85_du1.15_kd1_id1.15_dd0.85,12.0,12.0,4.0,0.85,1.15,0.9242076251722554,1.0757923748277447,,,
+LQI family comparison,lqi_family_comparison,scored_family_comparison,24,base_qs7.25_qp5_qi0.0011_r10_bd0.14_pd0.05,20.0,4.0,4.0,,,,,24.0,0.0,
+Feedforward-only,feedforward_only_reference,not_scored_no_feedback_gains,24,,,,,,,,,,,No feedback gains or feedback-family selection score.

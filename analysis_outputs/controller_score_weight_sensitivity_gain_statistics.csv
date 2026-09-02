@@ -1,0 +1,10 @@
+controller,gain_metric,gain_metric_label,n_profiles,baseline_value,relative_min,relative_q1,relative_median,relative_q3,relative_max,relative_mean
+Base LQI,max_abs_gain_s,Maximum displacement gain,24,0.7094968856754391,0.952340589791199,1.0,1.0,1.0,1.019327098767993,0.9996247828052994
+Base LQI,gain_l1_norm,Gain L1 norm,24,2.505868794707487,0.9633756750013833,1.0,1.0,1.0,1.0102052231674936,0.9993244217223487
+Base LQI,min_abs_integral_gain,Minimum integral-gain magnitude,24,0.0101346630972778,0.8843558347248655,1.0,1.0,1.0,1.086209530467429,1.0023656206524885
+Velocity-state LQI,max_abs_gain_s,Maximum displacement gain,24,0.7240210127744238,0.9806551521028275,1.0,1.0,1.0,1.0,0.9991939646709511
+Velocity-state LQI,gain_l1_norm,Gain L1 norm,24,2.512465663234435,0.9844531599342229,1.0,1.0,1.0,1.0,0.9993522149972592
+Velocity-state LQI,min_abs_integral_gain,Minimum integral-gain magnitude,24,0.0101239602426627,1.0,1.0,1.0,1.0,1.00075437733415,1.000031432388923
+PID,max_abs_gain_s,Maximum displacement gain,24,0.55,0.85,1.0,1.0,1.0,1.15,1.0250000000000001
+PID,gain_l1_norm,Gain L1 norm,24,1.0885,0.9242076251722554,1.0,1.0,1.0,1.0757923748277447,1.0126320624712908
+PID,min_abs_integral_gain,Minimum integral-gain magnitude,24,0.001275,1.0,1.0,1.0,1.0,1.0,1.0
