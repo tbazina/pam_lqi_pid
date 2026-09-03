@@ -4,7 +4,7 @@ Repository for data-driven position control of a FESTO DMSP-10-250 RM-CM
 McKibben pneumatic artificial muscle (PAM). The project combines open-loop
 actuator characterization, branchwise feedforward lookup construction,
 control-oriented model identification, simulated controller tuning, and
-LabVIEW/PAM validation evidence.
+LabVIEW/PAM validation.
 
 ## Active workflow
 
@@ -22,23 +22,23 @@ The current controller-design workflow uses the single active experiment
 5. Python drivers tune and compare base LQI, velocity-state LQI, and branchwise
    PID controllers on synthetic staircase references. A lookup-plus-creep
    feedforward-only baseline is evaluated separately.
-6. Controller gains, limits, lookups, observables, matrices, metrics, and
-   runtime contracts are exported to `analysis_outputs/`.
+6. Controller gains, limits, lookups, observables, matrices, and metrics
+   are exported to `analysis_outputs/`.
 
 Acquisition conditioning is performed in LabVIEW before offline processing:
 700 displacement oversamples and 90 pressure oversamples are averaged, rounded
-to `0.02 mm` and `0.02 bar`, respectively, and passed through a causal
-three-sample median filter. 
+to `0.02 mm` and `0.02 bar`, respectively, and passed through a three-sample median
+filter. 
 
-The active design is single-dataset and in-sample. Earlier v2/v3/v4 train-test runs,
+The design is single-dataset and in-sample. Earlier v2/v3/v4 train-test runs,
 controller-specific lookup post-correction, and real final-validation logs are
-retained as archival evidence rather than used as the current tuning objective.
+retained as archival.
 
 ## Repository layout
 
 ```text
 experiment/          Raw excitation, calibration, post-correction, and validation CSV files.
-analysis_outputs/    Generated lookups, summaries, controller exports, runtime contracts, and figures.
+analysis_outputs/    Generated lookups, summaries, controller exports, runtimes, and figures.
 scripts/             Python controller-design and R analysis/generation entry points.
 scripts/lib/         Shared Python and R helpers.
 ```
